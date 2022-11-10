@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(211, 231, 248);
+        }
+        .row{
+            background-color: white;
+            border-radius: 30px;
+        }
+        #div1:hover{
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            border-radius: 25px;
+        }
+        
+    </style>
+</head>
+  <body>
+
+    <section class="Form my-4 mx-5">
+        <div class="container pt-5" > 
+            <div class="row no-gutters" id="div1" >
+                <div class="col-md-6 col-lg-7 col-xl-5 ">
+                    <img src="image.svg" class="img-fluid p-5" style="margin-top: 100px; " alt="image">
+                </div>
+                <div class="col-lg-7">
+                    <h1 class="font-weight-bold py-3 pt-5"><img src="google-logo.gif" class="img-fluid"style="height:60px" alt="logo"></h1>
+                    <h4>Sign into your account</h4>
+                    <form action="#">
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <input type="email" placeholder="Email-Address" class="form-control my-3 p-2">
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <input type="password" placeholder="password" class="form-control my-3 p-2">
+                            </div>
+                        </div>
+
+                        <div class="form-row mx-3">
+                            <div class="col-lg-7 my-3 p-2">
+                                <input type="checkbox" checked>
+                                <label class="col-lg-7 "> Remember me</label>
+                                <a  href="#">Forgot password?</a>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                 <button type="submit" class="btn btn-primary btn-lg btn-block " style="width: 440px;">Sign in</button>
+                            </div>
+                        </div>
+
+                        <p class="fw-bold  text-muted" style="margin-left:190px ; margin-top:10px; padding:10px;">OR</p>
+                       
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <a class="btn btn-primary btn-lg  " style="background-color: #3b5998; width: 440px;" href="#!" brole="button">
+                                <i class="fa fa-facebook me-2"></i>Continue with Facebook
+                            </a>
+                        </div>
+
+                        <div class="form-row my-4">
+                            <div class="col-lg-7">
+                                <a class="btn btn-primary btn-lg " style="background-color: #55acee; width: 440px;" href="#!" role="button">
+                                <i class="fa fa-twitter me-2" ></i></i>Continue with Twitter</a>
+                            </div>
+                        </div>
+                        <p class="col-lg-7 mx-5 p-2" >Don't have an account? <a href="#">Registered Here</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  </body>
+</html>
